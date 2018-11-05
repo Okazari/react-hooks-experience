@@ -13,9 +13,9 @@
 
 ## Steps
 
- ° Implements the Features listed below (~30min)
- ° Refactor using [hooks](https://reactjs.org/docs/hooks-intro.html) (~30min)
-   - You must write a Pro_and_Cons.md about using hooks instead of your habits.
+ 1. Implements the Features listed below (~30min)
+ 2. Refactor using [hooks](https://reactjs.org/docs/hooks-intro.html) (~30min)
+     - You must write a Pro_and_Cons.md about using hooks instead of your habits.
 
 ## Features
 
@@ -24,8 +24,8 @@
  - List all your recipes
  - Delete a single recipe
  - Compose a new recipe
-
-### Compose a new recipe
+ 
+### Compose a new recipe
 
  - Add a name for your recipe
  - List of ingredients
