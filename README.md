@@ -1,7 +1,6 @@
 # Installation
 
  * `git clone https://github.com/Okazari/react-hooks-experience.git`
- * `git checkout -b *yourname/pseudo/whatsoever*`
  * `yarn` or `npm i`
  * `yarn start` or `npm start`
 
@@ -13,10 +12,14 @@
 
 ## Steps
 
- 1. Implements the Features listed below (~30min)
- 2. Refactor using [hooks](https://reactjs.org/docs/hooks-intro.html) (~30min)
+ 1. Create a branch `yourname`
+ 2. Implements the Features listed below (~30min)
+ 3. Push your branch then create a new branch with the same name and with`yourname-with-hooks` as a suffix
+ 4. Refactor using [hooks](https://reactjs.org/docs/hooks-intro.html) (~30min)
      - You must write a Pro_and_Cons.md about using hooks instead of your habits.
-
+ 5. Initiate a PR between the `yourname` and `yourname-with-hooks` branches
+ 6. Profits.
+ 
 ## Features
 
 ### List of recipes
