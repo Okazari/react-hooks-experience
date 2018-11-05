@@ -1,5 +1,7 @@
 import React from 'react'
 
-const App = () => 'Pizza compozer !'
+import Recipes from './Recipes'
+
+const App = () => <Recipes />
 
 export default App
