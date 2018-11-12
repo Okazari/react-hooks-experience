@@ -1,11 +1,20 @@
 import App from './App'
-import { withStateHandlers } from 'recompose'
 import uuid from 'uuid'
+import React, { useState } from 'react'
 
-export default withStateHandlers(
-  { recipes: [] },
-  {
-    onDeleteRecipe: ({ recipes }) => recipeId => ({ recipes: recipes.filter(r => r.id !== recipeId) }),
-    onAddRecipe: ({ recipes }) => newRecipe => ({ recipes: [...recipes, { ...newRecipe, id: uuid() }]})
-  }
-)(App)
+const AppContainer = () => {
+  const [recipes, setRecipes] = useState([])
+
+  const onDeleteRecipe = recipeId => setRecipes(recipes.filter(r => r.id !== recipeId))
+  const onAddRecipe = newRecipe => setRecipes([...recipes, { ...newRecipe, id: uuid() }])
+
+  return (
+    <App 
+      onDeleteRecipe={onDeleteRecipe} 
+      onAddRecipe={onAddRecipe} 
+      recipes={recipes} 
+    />
+  )
+}
+
+export default AppContainer
