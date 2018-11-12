@@ -1,0 +1,34 @@
+export default [
+  {
+    type:'meat',
+    name:'Boeuf'
+  },
+  {
+    type:'meat',
+    name:'Poulet'
+  },
+  {
+    type:'meat',
+    name:'Poisson'
+  },
+  {
+    type:'meat',
+    name:'Veau'
+  },
+  {
+    type:'condiments',
+    name:'Poivre'
+  },
+  {
+    type:'condiments',
+    name:'Curry'
+  },
+  {
+    type:'condiments',
+    name:'Coffe'
+  },
+  {
+    type:'condiments',
+    name:'Gingembre'
+  },
+]

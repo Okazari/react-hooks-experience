@@ -1,44 +1,12 @@
 import Compozer from './Compozer'
 import { withStateHandlers, compose, withProps } from 'recompose'
 import groupBy from 'lodash/groupBy'
+import ingredients from './ingredients'
 
 export default compose(
   withStateHandlers(
     {
-      ingredients: [
-        {
-          type:'meat',
-          name:'Boeuf'
-        },
-        {
-          type:'meat',
-          name:'Poulet'
-        },
-        {
-          type:'meat',
-          name:'Poisson'
-        },
-        {
-          type:'meat',
-          name:'Veau'
-        },
-        {
-          type:'condiments',
-          name:'Poivre'
-        },
-        {
-          type:'condiments',
-          name:'Curry'
-        },
-        {
-          type:'condiments',
-          name:'Coffe'
-        },
-        {
-          type:'condiments',
-          name:'Gingembre'
-        },
-      ],
+      ingredients,
       name: '',
       newRecipe: []
     },
