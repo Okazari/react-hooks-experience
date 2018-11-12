@@ -15,7 +15,7 @@ const IngredientList = ({ name, ingredients, onIngredientClick }) => (
   </div>
 )
 
-const Compozer = ({ onCancel, ingredientsByType = [], name, onNameChange, onAddRecipe, newRecipe = [], onIngredientClick }) => console.log(ingredientsByType) || (
+const Compozer = ({ onCancel, ingredientsByType = [], name, onNameChange, onAddRecipe, newRecipe = [], onIngredientClick }) => (
   <form>
     New recipe
     <div>
